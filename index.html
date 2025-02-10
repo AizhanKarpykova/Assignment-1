@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grandiose Organic Foods</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="content">
+    <div class="main-page" >
+      <section id = "home">
+        <div class="overlay">
+            <nav class="nav-bar">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#video">Video</a></li>
+                    <li><a href="#photos">Photos</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                  
+                </ul>
+            </nav>
+        </div>
+          <div class="header">
+            <h2 class="title">
+            Organic/Healthy food <br/>near campus
+            </h2>
+          </div></section>
+
+
+    </div>
+    <div class="video"><section id="video"></section>
+      <div class="overlay">
+        <nav class="nav-bar">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#video">Video</a></li>
+                <li><a href="#photos">Photos</a></li>
+                <li><a href="#contact">Contact</a></li>
+                
+            </ul>
+        </nav>
+    </div>
+      <div class="video-menu">
+        <iframe src="https://drive.google.com/file/d/1fG2EpTwhV9XWByFJWct4YTzDndd6uFBt/preview" width="640" height="480" allow="autoplay"></iframe>
+        <div class="video-description">
+          <div class="video-title">
+            <h3>Grandiose</h3>
+          </div>
+          <div class="video-content">
+            <p>Grandiose Supermarket is a popular retail chain known for its wide selection of high-quality products, ranging from fresh produce to gourmet goods. With a reputation for exceptional customer service and a well-curated shopping experience, Grandiose caters to a diverse clientele. Their stores are spacious, organized, and designed to make shopping convenient and enjoyable. Whether you're looking for organic produce, international ingredients, or local specialties, Grandiose provides a comprehensive assortment to meet the needs of various tastes and dietary preferences. In addition to groceries, the supermarket offers a variety of household items, health and beauty products, and snacks. Grandiose is also committed to sustainability, offering eco-friendly packaging options and promoting local sourcing where possible. With multiple locations, it’s a go-to destination for those seeking high-quality products and a pleasant shopping experience. Grandiose blends convenience, variety, and quality in a way that makes it stand out in the competitive supermarket industry.</p>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="photos">
+      <section id="photos"></section>
+      <div class="overlay">
+        <nav class="nav-bar">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#video">Video</a></li>
+                <li><a href="#photos">Photos</a></li>
+                <li><a href="#contact">Contact</a></li>
+                
+            </ul>
+        </nav>
+    </div>
+    <div class="slider-container" id="photos">
+      <h2>Organic food that you can find in Grandiose</h2>
+      <div class="slider">
+          <button id="prev" class="nav-button">&#9665;</button>
+          <img id="slider-image" src="img/IMG_1.jpeg" alt="Organic Food">
+          <button id="next" class="nav-button">&#9655;</button>
+      </div>
+  </div>
+    </div>
+    <div class="contacts"><section id="contact"></section>
+      <div class="overlay">
+        <nav class="nav-bar">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#video">Video</a></li>
+                <li><a href="#photos">Photos</a></li>
+                <li><a href="#contact">Contact</a></li>
+                
+            </ul>
+        </nav>
+    </div>
+    <div class="container-main">
+      <div class="container-header">
+          <h1>Contact</h1>
+      </div>
+      <div class="container-contact">
+          <div class="container-item">
+              <span>LinkedIn:</span>
+              <a href="https://www.linkedin.com/in/aizhan-karpykova/" target="_blank">Aizhan Karpykova</a>
+          </div>
+          <div class="container-item">
+              <span>Gmail:</span>
+              <a href="mailto:ak11293@nyu.edu">ak11293@nyu.edu</a>
+          </div>
+          <div class="container-item">
+              <span>Instagram:</span>
+              <a href="https://www.instagram.com/aizhanunique" target="_blank">@aizhanunique</a>
+          </div>
+      </div>
+  </div>
+    </div>
+    </div>
+    <script>
+      const images = ["img/IMG_1.jpeg", "img/IMG_2.jpeg", "img/IMG_3.jpeg", "img/IMG_4.jpeg", "img/IMG_5.jpeg"];
+      let index = 0;
+      const imgElement = document.getElementById("slider-image");
+      document.getElementById("prev").addEventListener("click", () => {
+          index = (index - 1 + images.length) % images.length;
+          imgElement.src = images[index];
+      });
+      document.getElementById("next").addEventListener("click", () => {
+          index = (index + 1) % images.length;
+          imgElement.src = images[index];
+      });
+  </script>
+</body>
+</html>

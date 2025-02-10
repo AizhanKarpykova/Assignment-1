@@ -1,0 +1,173 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x:hidden;
+    scroll-behavior: smooth;
+}
+html{
+    scroll-behavior: smooth;
+}
+.main-page{
+    background-image:url('img/ab.jpg') ;
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+	background-position: center;
+}
+.overlay {
+    width: 100vw;
+    padding-top: 1%;
+    display: flex;
+    justify-content:center;
+    align-items: space-between;
+}
+
+.nav-bar ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    gap: 100px;
+    padding: 0;
+}
+
+.nav-bar ul li {
+    display: inline;
+}
+
+.nav-bar ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+.header{
+    width: 100%;
+height: auto;}
+.title{
+    margin-left: 33%;
+    margin-top: 210px;
+    font-size: 60px;
+    text-align: center;
+}
+.video, .photos, .contacts{
+    width: 100vw;
+    height: 100vh;
+}
+.video-menu{
+    display:flex;
+    gap: 80px;
+    padding-top: 6%;
+    align-items: center;
+    width: 70%;
+    margin-left: 10%;
+}
+iframe{
+    height: 60vh;
+    min-width: 45vw;
+}
+.video-title{
+    font-size: 48px;
+    position: relative;
+    top: -56px;
+    left: 160px;
+}
+.video-content{
+    position: relative;
+    top: -100px;
+    left:-25px;
+    font-size: 22px;
+    width:40vw;
+}
+.video-description{
+    display: flex ;
+    flex-direction: column;
+}
+.slider-container {
+    text-align: center;
+    margin-top: 100px;
+    font-size: 22px;
+}
+
+.slider {
+    position: relative;
+    top:-50px;
+    display: flex;
+    align-items: center; /* Ensures all elements are vertically centered */
+    justify-content: center;
+    gap: 20px;
+    position: relative;
+}
+
+.nav-button {
+    background: none;
+    border: none;
+    font-size: 56px; /* Increase button size */
+    cursor: pointer;
+    display: flex;
+    align-items: center; /* Align button content */
+    justify-content: center;
+    height: 90px; /* Ensure uniform height */
+    width: 90px; /* Make buttons more clickable */
+}
+
+#slider-image {
+    padding-top: 40px;
+    width: 800px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.contacts{
+    width: 100vw; /* Full viewport width */
+    height: 100vh; /* Full viewport height */
+}
+.container-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center content vertically */
+    align-items: center; /* Center content horizontally */
+    margin: 0;
+   padding-top: 5%;
+    box-sizing: border-box;
+}
+
+.container-header h1 {
+    font-size: 48px;
+    color: #2d572c;
+    margin: 0;
+}
+
+.container-header h2 {
+    font-size: 18px;
+    color: #2d572c;
+    margin: 5px 0 20px;
+}
+
+.container-contact {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.container-item {
+    background-color: #4caf50;
+    padding: 33px; /* Increased padding for larger size */
+    border-radius: 20px; /* Adjusted for a more balanced look */
+    color: white;
+    font-size: 25px; /* Slightly larger font size */
+    width: 650px; /* Increased width relative to the container */
+    text-align: center;
+    margin: 0 auto; /* Center the divs horizontally */
+}
+
+
+.container-item a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.container-item a:hover {
+    text-decoration: underline;
+}
