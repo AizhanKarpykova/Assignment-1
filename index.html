@@ -20,17 +20,17 @@
       </nav>
   </div>
     <div class="main-page" >
-      <section id = "home">
+      <section id = "home"></section>
 
           <div class="header">
             <h2 class="title">
             Organic/Healthy food <br/>near campus
             </h2>
           </div></section>
-
-
-    </div>
-    <div class="video"><section id="video"></section>
+        </div>
+        <div class="video-indent"><section id="video"></section>
+    
+    <div class="video">
 
       <div class="video-menu">
         <iframe src="https://drive.google.com/file/d/1fG2EpTwhV9XWByFJWct4YTzDndd6uFBt/preview" width="640" height="480" allow="autoplay"></iframe>
@@ -39,59 +39,46 @@
             <h3>Grandiose</h3>
           </div>
           <div class="video-content">
-            <p>Grandiose Supermarket is a popular retail chain known for its wide selection of high-quality products, ranging from fresh produce to gourmet goods. With a reputation for exceptional customer service and a well-curated shopping experience, Grandiose caters to a diverse clientele. Their stores are spacious, organized, and designed to make shopping convenient and enjoyable. Whether you're looking for organic produce, international ingredients, or local specialties, Grandiose provides a comprehensive assortment to meet the needs of various tastes and dietary preferences. In addition to groceries, the supermarket offers a variety of household items, health and beauty products, and snacks. Grandiose is also committed to sustainability, offering eco-friendly packaging options and promoting local sourcing where possible. With multiple locations.</p>
+            <p>Grandiose Supermarket is a popular retail chain known for its wide selection of high-quality products, ranging from fresh produce to gourmet goods. With a reputation for exceptional customer service and a well-curated shopping experience. Our customers' needs are what runs the business, from the common, basic, fast moving items represented by top brands within the region to providing a whole new exciting range of gourmet and diet specific products from all over the world.</p>
             
           </div>
         </div>
-      </div>
+      </div></div>
     </div>
+    <div class="photo-indent"> <section id="photos"></section>
     <div class="photos">
-      <section id="photos"></section>
-
-    <div class="slider-container" id="photos">
+    
+    <div class="slider-container">
       <h2>Organic food that you can find in Grandiose</h2>
       <div class="slider">
           <button id="prev" class="nav-button">&#9665;</button>
           <img id="slider-image" src="img/IMG_1.jpeg" alt="Organic Food">
           <button id="next" class="nav-button">&#9655;</button>
       </div>
-  </div>
+  </div></div>
     </div>
-    <div class="contacts"><section id="contact"></section>
-
+    <div class="contacts"><section id = "contact">
     <div class="container-main">
       <div class="container-header">
           <h1>Contact</h1>
       </div>
       <div class="container-contact">
           <div class="container-item">
-              <span>LinkedIn:</span>
+              <span><img class='icon'src="img/linkedin.png"></span>
               <a href="https://www.linkedin.com/in/aizhan-karpykova/" target="_blank">Aizhan Karpykova</a>
           </div>
           <div class="container-item">
-              <span>Gmail:</span>
+              <span><img class='icon'src="img/gmail.png"></span>
               <a href="mailto:ak11293@nyu.edu">ak11293@nyu.edu</a>
           </div>
-          <div class="container-item">
-              <span>Instagram:</span>
+          <div class="container-item insta">
+              <span><img class='icon 'src="img/instagram.png"></span>
               <a href="https://www.instagram.com/aizhanunique" target="_blank">@aizhanunique</a>
           </div>
       </div>
   </div>
     </div>
     </div>
-    <script>
-      const images = ["img/IMG_1.jpeg", "img/IMG_2.jpeg", "img/IMG_3.jpeg", "img/IMG_4.jpeg", "img/IMG_5.jpeg"];
-      let index = 0;
-      const imgElement = document.getElementById("slider-image");
-      document.getElementById("prev").addEventListener("click", () => {
-          index = (index - 1 + images.length) % images.length;
-          imgElement.src = images[index];
-      });
-      document.getElementById("next").addEventListener("click", () => {
-          index = (index + 1) % images.length;
-          imgElement.src = images[index];
-      });
-  </script>
+    <script src="script.js"></script>
 </body>
 </html>
