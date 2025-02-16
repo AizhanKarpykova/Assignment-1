@@ -251,3 +251,42 @@ iframe{
         margin-top: 40%; 
     }
 }
+@media (max-width: 768px) {
+    .nav-bar ul {
+      gap: 30%;
+    }
+  
+    .nav-bar ul li a {
+      font-size: 1.3em;
+    }
+  
+    .title {
+      font-size: 2em;
+    }
+  
+    .video-menu {
+      flex-direction: column;
+    }
+  
+    .video-title {
+      font-size: 2em;
+    }
+  
+    .video-content {
+      font-size: 1em;
+    }
+  
+    .nav-button {
+      font-size: 2em;
+      height: 40px;
+      width: 40px;
+    }
+  
+    .container-item a {
+      font-size: 1.2em;
+    }
+    .main-page {
+      background-color: #f5ffe5;
+      background-image: none;
+    }
+  }
