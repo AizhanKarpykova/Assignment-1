@@ -293,19 +293,19 @@ iframe{
   }
   @media only screen and (max-width: 480px) {
     .nav-bar ul {
-      gap: 5%;
+      gap: 7%;
     }
   
     .nav-bar ul li a {
       font-size: 0.9em;
     }
     .veggi{
-        width: 50%;
+        width: 60%;
         position: relative;
-        left: 13%;
+        left: 8%;
     }
     .title {
-      font-size: 1.8em;
+      font-size: 2em;
     }
   
     .video-menu {
@@ -348,5 +348,8 @@ iframe{
     }
     .main-page{
         margin-bottom: -40%;
+    }
+    .header{
+        top: 20%;
     }
   }
