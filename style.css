@@ -44,6 +44,7 @@ html{
     display: flex;
     gap: 40%;
     justify-content: center;
+    width: 100%;
 }
 
 .nav-bar ul li {
@@ -298,7 +299,11 @@ iframe{
     .nav-bar ul li a {
       font-size: 0.8em;
     }
-  
+    .veggi{
+        width: 50%;
+        position: relative;
+        left: 13%;
+    }
     .title {
       font-size: 1.8em;
     }
