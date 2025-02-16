@@ -290,3 +290,47 @@ iframe{
       background-image: none;
     }
   }
+  @media only screen and (max-width: 480px) {
+    .nav-bar ul {
+      gap: 5%;
+    }
+  
+    .nav-bar ul li a {
+      font-size: 0.9em;
+    }
+  
+    .title {
+      font-size: 1.8em;
+    }
+  
+    .video-menu {
+      flex-direction: column;
+    }
+  
+    iframe {
+      height: 40vh;
+    }
+  
+    .video-title {
+      font-size: 1.8em;
+    }
+  
+    .video-content {
+      font-size: 0.9em;
+      line-height: 1.6;
+    }
+  
+    #slider-image {
+      width: 90%;
+    }
+  
+    .nav-button {
+      font-size: 1.5em;
+      height: 30px;
+      width: 30px;
+    }
+  
+    .container-item a {
+      font-size: 1.1em;
+    }
+  }
