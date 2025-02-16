@@ -293,16 +293,16 @@ iframe{
   }
   @media only screen and (max-width: 480px) {
     .nav-bar ul {
-      gap: 3%;
+      gap: 5%;
     }
   
     .nav-bar ul li a {
-      font-size: 0.8em;
+      font-size: 0.9em;
     }
     .veggi{
-        width: 50%;
+        width: 40%;
         position: relative;
-        left: 13%;
+        left: 18%;
     }
     .title {
       font-size: 1.8em;
@@ -317,16 +317,24 @@ iframe{
     }
   
     .video-title {
-      font-size: 1.8em;
+      font-size: 1.6em;
+      margin-bottom: 5%;
+
     }
   
     .video-content {
-      font-size: 0.9em;
+        max-width: 90%;
+      font-size: 0.8em;
       line-height: 1.6;
     }
   
     #slider-image {
       width: 70%;
+    }
+    .slider-container{
+        max-width: 90%;
+        align-items: center;
+        font-size: 1.4em;
     }
   
     .nav-button {
@@ -337,5 +345,8 @@ iframe{
   
     .container-item a {
       font-size: 1.1em;
+    }
+    .main-page{
+        margin-bottom: -40%;
     }
   }
