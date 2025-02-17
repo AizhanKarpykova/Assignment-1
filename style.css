@@ -1,19 +1,18 @@
 body {
     margin: 0;
-    margin-top: -3%;
+    margin-top: -3%; /* Moves the body content slightly up */
     padding: 0;
     border: 0;
     outline: 0;
     font-size: 100%;
     vertical-align: baseline;
     overflow-x:hidden;
-
     background-color: #F5FFE5;
     font-family:Arial, Helvetica, sans-serif;
 
 }
 html{
-    scroll-behavior: smooth;
+    scroll-behavior: smooth; /* Enables smooth scrolling between sections */
 }
 .main-page{
     background-image:url('img/img_01.jpg') ;
@@ -23,10 +22,10 @@ html{
 	background-position: center;
 }
 .veggi{
-    display: none;
+    display: none; /* Hides the image by default */
 }
 .overlay {
-    position: sticky;
+    position: sticky; /* Keeps navigation bar fixed at the top */
     z-index: 2;
     background-color: #D7F0B0;
     top: 0;
@@ -93,7 +92,7 @@ html{
 
 .video-menu{
     display:flex;
-    flex-wrap: wrap;
+    flex-wrap: wrap; /* Allows items to wrap on smaller screens */
     justify-content: center;
     gap: 5%;
     align-items: center;
@@ -130,7 +129,7 @@ iframe{
 }
 .slider-container {
     text-align: center;
-    margin-top: 10%;
+    margin-top: 5%;
     font-size: 1.375em;
     color: #2d572c;
     font-weight: bold; 
@@ -164,6 +163,26 @@ iframe{
     height: auto;
     object-fit: cover;
     border-radius: 10px;
+}
+.dots-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.dot {
+  height: 10px;
+  width: 10px;
+  margin: 0 5px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.dot.active {
+  background-color: #2d572c;
 }
 .contacts{
     width: 100vw; /* Full viewport width */
@@ -204,10 +223,10 @@ iframe{
     padding: 5px; /* Increased padding for larger size */
     border-radius: 20px; /* Adjusted for a more balanced look */
     color: #2d572c;
-    font-size: 1.2em; /* Slightly larger font size */
+    font-size: 1.2em; 
     width: 100%; /* Increased width relative to the container */
     text-align: center;
-    margin: 0 auto; /* Center the divs horizontally */
+    margin: 0 auto; 
 }
 
 
@@ -231,6 +250,7 @@ iframe{
     position: relative;
     left: -22px;
 }
+/* Responsive Design */
 @media (max-width: 1100px){
     .main-page{
         background-image: none;
@@ -252,6 +272,7 @@ iframe{
         margin-top: 40%; 
     }
 }
+/* Mobile Screens */
 @media (max-width: 768px) {
     .nav-bar ul {
       gap: 30%;
@@ -291,6 +312,7 @@ iframe{
       background-image: none;
     }
   }
+  /* Small Mobile Screens */
   @media only screen and (max-width: 480px) {
     .nav-bar ul {
       gap: 8%;
@@ -355,3 +377,4 @@ iframe{
         
     }
   }
+  

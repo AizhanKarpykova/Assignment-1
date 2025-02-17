@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Grandiose Organic Food</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="img/grandiose_icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css"> <!-- Linking CSS file -->
+    <link rel="icon" href="img/grandiose_icon.png" type="image/x-icon"> <!-- Adding icon  -->
 </head>
 <body>
   <div class="content">
     <div class="overlay">
-      <nav class="nav-bar">
+      <nav class="nav-bar">  <!-- Navigation bar with links to different sections -->
           <ul>
               <li><a href="#home">Home</a></li>
               <li><a href="#video">Video</a></li>
@@ -25,18 +25,18 @@
 
           <div class="header">
             <h2 class="title">
-            Organic/Healthy food <br/>near campus
-            </h2>
+            Organic/Healthy Food <br/>Near Campus
+            </h2>   <!-- Displaying an image  -->
             <img class='veggi'src="img/veggi.png" alt="">
           </div></section>
         </div>
-        <div class="video-indent"><section id="video"></section>
+        <div class="video-indent"><section id="video"></section> <!-- Video Section -->
     
     <div class="video">
 
       <div class="video-menu">
-        <iframe src="https://drive.google.com/file/d/1xkkgc5pprocH4yA4QrzEc2x8hjTVZGD2/preview" width="640" height="480" allow="autoplay"></iframe>
-        <div class="video-description">
+        <iframe src="https://drive.google.com/file/d/1xkkgc5pprocH4yA4QrzEc2x8hjTVZGD2/preview" width="640" height="480" allow="autoplay"></iframe> <!-- Linking video from Google Drive -->
+        <div class="video-description">  <!-- Description for video -->
           <div class="video-title">
             <h3>Grandiose</h3>
           </div>
@@ -47,19 +47,22 @@
         </div>
       </div></div>
     </div>
-    <div class="photo-indent"> <section id="photos"></section>
+    <div class="photo-indent"> <section id="photos"></section>  <!-- Photos Section -->
     <div class="photos">
     
     <div class="slider-container">
       <h2>Organic food that you can find in Grandiose</h2>
-      <div class="slider">
-          <button id="prev" class="nav-button">&#9665;</button>
-          <img id="slider-image" src="img/IMG_1.jpeg" alt="Organic Food">
-          <button id="next" class="nav-button">&#9655;</button>
-      </div>
+      <div class="slider-container">
+        <div class="slider">
+            <button id="prev" class="nav-button">&#9665;</button>
+            <img id="slider-image" src="img/IMG_1.jpeg" alt="Organic Food">
+            <button id="next" class="nav-button">&#9655;</button>
+        </div>
+        <div class="dots-container" id="dots-container"></div>
+    </div>
   </div></div>
     </div>
-    <div class="contacts"><section id = "contact">
+    <div class="contacts"><section id = "contact">   <!-- Contact Section -->
     <div class="container-main">
       <div class="container-header">
           <h1>Contact</h1>
@@ -81,6 +84,6 @@
   </div>
     </div>
     </div>
-    <script src="script.js"></script>
+    <script src="script.js"></script>  <!-- Linking  JavaScript file for interactive features -->
 </body>
 </html>
